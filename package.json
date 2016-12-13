@@ -1,0 +1,29 @@
+{
+  "name": "lambda-blackbeard",
+  "version": "1.0.0",
+  "description": "Pirating Virtual Assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "programmerben",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "async": "^2.1.4",
+    "couchpotato-api": "^0.1.0",
+    "moment": "^2.17.1",
+    "needle": "^1.1.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.3.1",
+    "node-aws-lambda": "^0.1.8",
+    "del": "^1.1.0",
+    "gulp": "^3.8.10",
+    "gulp-install": "^0.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-zip": "^2.0.2",
+    "kinesis": "^1.0.2",
+    "run-sequence": "^1.0.2",
+    "stream": "0.0.2"
+  }
+}
